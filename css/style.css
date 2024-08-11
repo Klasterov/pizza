@@ -1,0 +1,258 @@
+body{
+    margin: 0;
+    line-height: 1.6;
+    font-family: "Dancing Script", cursive;
+}
+
+/* Head */
+#head {
+    background: url("../img/head.jpg") no-repeat;
+    width: 100%;
+    background-size: cover ;
+    position: relative;
+    font-family: "Dancing Script", cursive;
+}
+
+nav{
+    position: relative;
+    margin-left: 80px;
+    display: flex;
+    flex-wrap: wrap;
+    font-family: "Dancing Script", cursive;
+}
+.nav-item1{
+    display: inline-flex;
+    width: 50px;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav-item1 img{
+    width: 60px;
+    height: 80px;
+}
+
+.nav-item1 p {
+    font-size: 20px;
+    text-transform: uppercase;
+    width: 80px;
+    text-align: center;
+    color: white;
+    font-family: "Dancing Script", cursive;
+}
+
+.nav-item2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.nav-item2 a{
+    font-size: 20px;
+    color: white;
+    text-transform: uppercase;
+    text-decoration: none;
+    margin-left: 40px;
+}
+
+.head{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 25px;
+}
+
+.head-item1{
+    text-align: center;
+    color: white;
+}
+
+.head-item1 h1{
+    font-size: 50px;
+}
+
+.head-item1 p{
+    font-size: 30px;
+    color: white;
+}
+
+/* Body */
+#body{
+    background: url("../img/body.jpg");
+    width: 100%;
+    background-size: cover;
+    position: relative;
+    font-family: "Dancing Script", cursive;
+}
+
+.body-item{
+    text-align: center;
+    color: white;
+    margin-top: 60px;
+}
+
+.body-item h1{
+    font-size: 50px;
+    text-transform: uppercase;
+}
+
+.body-item p{
+    font-size: 30px;
+}
+
+.slides{
+    display: flex;
+    justify-content: center;
+    margin-left: 35px;
+    flex-wrap: wrap;
+}
+
+.slide-item{
+    margin-right: 15px;
+}
+
+.block{
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+    width: 250px;
+    height: 400px;
+    background: #d9d9d9;
+    background-size: 100%;
+    z-index: 1;
+    border-top-left-radius: 70px;
+    border-bottom-right-radius: 70px;
+    margin-bottom: 35px;
+    margin-left: 35px;
+}
+
+.block img{
+    width: 200px;
+    z-index: 9999;
+
+    top: 0;
+}
+
+.block p{
+    position: relative;
+    width: 200px;
+    text-align: center;
+    font-size: 25px;
+    color: black;
+
+}
+
+/* Our */
+#our{
+    background: url("../img/head.jpg") no-repeat;
+    background-size: cover;
+    font-family: "Dancing Script", cursive;
+}
+
+.our{
+    margin-top: 70px;
+}
+
+.our-item1 h2{
+    font-size: 48px;
+    margin-top: 200px;
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.our-item1 p{
+    color: white;
+    text-align: center;
+    font-size: 32px;
+}
+
+.our-item2{
+    margin-bottom: 70px;
+}
+
+/* About */
+#about{
+    background: url("../img/body.jpg") no-repeat;
+    background-size: cover;
+    font-family: "Dancing Script", cursive;
+}
+
+/* Footer */
+#footer{
+    background: #2F5367;
+    font-family: "Dancing Script", cursive;
+}
+
+.slog{
+    color: white;
+    font-size: 23px;
+    text-align: center;
+}
+
+.social{
+    font-size: 40px;
+    width: 50px;
+    right: 0;
+    text-align: center;
+}
+
+.number{
+    font-size: 24px;
+    color: white;
+    line-height: 1;
+    text-align: center;
+}
+
+.address{
+    font-size: 24px;
+    color: white;
+    text-align: center;
+}
+
+.footer-item1{
+    display: inline-flex;
+    width: 50px;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-item1 img{
+    width: 60px;
+    height: 80px;
+}
+
+.footer-item1 p {
+    font-size: 20px;
+    text-transform: uppercase;
+    width: 80px;
+    text-align: center;
+    color: white;
+}
+
+@media screen and (max-width: 1200px){
+    .head-item2 img{
+        width: 400px;
+        height: 400px;
+        text-align: center;
+    }
+
+
+    .our-item2{
+        display: inline-flex;
+        justify-content: center;
+    }
+    .our-item2 img{
+
+        width: 400px;
+        height: 400px;
+    }
+}
+
+@media screen and (max-width: 700px){
+    .our-item1 h2{
+        margin-top: 0;
+    }
+}
